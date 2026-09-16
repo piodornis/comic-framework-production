@@ -13,3 +13,8 @@ Report each check as PASS, FAIL or OPEN with evidence. A plan can be useful with
 9. Upstream revisions and plan acceptance scope are recorded; accepted source changes cause an impact review.
 
 Negative cases to check during implementation: 31 pages with a multiple of four; duplicate/missing position; unmapped Story page; ad on a protected spread; zero panels on a story page; mixed area overlap; conflicting profile dimensions. Future automation must report these rather than silently repair content.
+
+10. Cover aliases U1–U4 resolve to C1–C4 without duplicate pages. Cover elements and imprint placement are resolved or OPEN; prices, barcodes and credits are not invented.
+11. Full-page ads do not compete with imprint/preview content on the same slot. Shared uses have explicit non-overlapping geometry; house/third-party classification may remain OPEN.
+12. Splash/credits stay inside the existing page budget. A double-page splash consumes two facing pages but one unique shared panel, with an explicit reference on its zero-local-panel side. An unexplained zero-panel story page still fails.
+13. Editorial functions and ad totals distinguish interior from cover allocation; supplied page ranges are reconciled to one actual total.

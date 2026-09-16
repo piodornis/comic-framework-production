@@ -6,7 +6,7 @@ Contract: `comic-production-standard-v0.1-draft`. These are normative rules for 
 
 Resolve format from the issue's chosen profile/version plus explicit issue overrides, otherwise the project profile/version plus project overrides. An issue profile selection replaces the project format as a whole; never combine dimensions silently. Store the effective trim, bleed and safe-area values in the issue record, with their source. Printer-confirmed values become explicit versioned overrides; a discrepancy is reported before adoption.
 
-For panels, resolve explicit page override, then issue default, then project default. Defaults are targets, not a hard capacity. Record the effective integer panel count for every story-bearing page. Storyboard differences require reconciliation with Story, never automatic splitting or deletion of panels. A deliberate override needs a reason and upstream reference; numbers outside a configured preferred range require review, not automatic rejection. Pure ad, cover, editorial and blank pages have zero story panels. A splash page has one panel. Panel count alone does not prove readable layout.
+For panels, resolve explicit page override, then issue default, then project default. Defaults are targets, not a hard capacity. Record the effective integer panel count for every story-bearing page. Storyboard differences require reconciliation with Story, never automatic splitting or deletion of panels. A deliberate override needs a reason and upstream reference; numbers outside a configured preferred range require review, not automatic rejection. Pure ad, cover, editorial and blank pages have zero story panels. A single-page splash has one panel. For a shared double-page splash, the non-owning side may have zero local panels only with an explicit reference to the shared panel; see [Publication structure](publication-structure.md). Panel count alone does not prove readable layout.
 
 ## Required issue fields
 
@@ -23,6 +23,14 @@ For panels, resolve explicit page override, then issue default, then project def
 
 A page is one printed side, not a sheet or spread. `total_pages = cover_pages + interior_pages`. All cover sides, blanks, ads and editorial pages count. Require `total_pages % page_count_multiple = 0`. The supplied saddle-stitch planning example uses four cover sides and a multiple of four; this is not a universal binding rule. For other bindings/digital editions choose explicit printer/product constraints rather than assuming the example applies.
 
+## Configurable extent and planning before Story pagination
+
+`total_pages` is an issue choice, not a fixed 32-page default. A saddle-stitch planning profile with four cover sides and a multiple of four can represent 24 pages (4 cover + 20 interior), 32 pages (4 + 28), or other compatible totals. Confirm actual printer limits separately. Distinguish total pages from interior pages explicitly in intake: “24 interior pages plus 4 cover sides” is a 28-page product.
+
+For example, 24 total = 4 covers + 16 story + 2 full interior ads + 2 editorial pages. Cover ads remain included in the four covers. Editorial pages are optional project choices; removing them changes the available Story budget. A format profile never determines the issue extent.
+
+When the upstream source is prose without accepted Story page IDs, Production may allocate provisional budget IDs and link each to source paragraphs at a recorded revision. Mark them as proposals and keep accepted Story-page coverage OPEN. They are not Story pages or a substitute for a storyboard. Source paragraph coverage can be checked independently. Story owns acceptance/adaptation of the proposed distribution, dialogue and staging; Production must not edit the published prose to make its budget fit.
+
 Each physical slot is present exactly once and has one type: `cover`, `story`, `ad`, `mixed`, `editorial`, `blank`. The sum of type counts equals total pages. Mixed pages count once as physical pages and once as story-bearing pages; track fractional ad area separately, never subtract it as another whole page. Cover ads remain cover pages and are counted through the ad reservation table.
 
 ## Physical page map
@@ -38,6 +46,10 @@ For left-to-right bound reading with C1 at position 1, a facing spread starts at
 Each reservation records ID, physical slot ID, full/partial area, rectangle in trim-relative mm (`x`, `y`, `width`, `height`), creative asset/reference or OPEN, asset state (reserved/supplied), placement constraints, and content acceptance reference or OPEN. A reservation is not an approved or print-ready asset.
 
 Rectangles have positive dimensions and lie inside trim. Full-page art may additionally extend through the configured bleed. Separate ad rectangles may not overlap. On mixed pages, specify non-overlapping story and ad rectangles; sum of rectangle areas must not exceed trim area, and text remains within safe area. Geometric checks do not replace visual review. Ads may be reserved on C2/C3/C4 explicitly; C1 requires an explicit editorial decision. Do not assume all cover sides are available for ads.
+
+## Publication functions
+
+Use [Publication structure](publication-structure.md) for U1–U4 aliases, cover elements, imprint/preview allocation, house versus third-party ads, editorial options and splash/credits handling. These options do not prescribe 32 pages or override an explicit issue budget. Existing cover IDs C1–C4 remain stable.
 
 ## Changes and authority
 

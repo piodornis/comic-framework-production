@@ -16,6 +16,8 @@ Compatible upstream inputs: `comic-project-standard-v1` and `comic-design-standa
 - `examples/` — generic worked issue, without project canon
 - `skills/` — implementation roadmap, no executable Skills yet
 
+See [Publication structure](schemas/publication-structure.md) for U1–U4 cover functions, imprint, splash/credits, advertising categories and editorial options.
+
 ## Start here
 
 1. Read [planning rules](schemas/issue-production-schema.md).
@@ -24,5 +26,7 @@ Compatible upstream inputs: `comic-project-standard-v1` and `comic-design-standa
 4. Copy the issue template and allocate covers, story, ads and other pages before scripting against the remaining story budget.
 5. Link story pages to physical slots, record panel overrides and review page-turn impacts with Story.
 6. Follow the [review checklist](schemas/planning-review.md). Try the [32-page example](examples/issue-32-pages.md).
+
+The total page count is configurable. The examples cover [24 pages](examples/issue-24-pages.md) and [32 pages](examples/issue-32-pages.md); these include four cover sides. Neither is a fixed framework default. Other totals are allowed when the chosen binding/page-multiple constraints hold.
 
 Working defaults are proposals, not creator approval or printer specifications. No automatic commit, push, publication or installation. Git is the primary history; preserve upstream sources and unrelated work.
