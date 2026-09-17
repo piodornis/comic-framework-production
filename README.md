@@ -30,3 +30,9 @@ See [Publication structure](schemas/publication-structure.md) for U1–U4 cover 
 The total page count is configurable. The examples cover [24 pages](examples/issue-24-pages.md) and [32 pages](examples/issue-32-pages.md); these include four cover sides. Neither is a fixed framework default. Other totals are allowed when the chosen binding/page-multiple constraints hold.
 
 Working defaults are proposals, not creator approval or printer specifications. No automatic commit, push, publication or installation. Git is the primary history; preserve upstream sources and unrelated work.
+
+## Optional lettering and print pilot — 2026-09-17
+
+[Lettering and print pilot](guides/lettering-and-print-pilot.md) connects Story wording, Design inputs, layout corrections and print review. [Pilot templates](templates/production-pilot/README.md) provide intake, lettering, assets, changes, print specifications and review forms. [Import expectations](guides/import-expectations.md) describe future implementation checks.
+
+These are opt-in experimental guidance and blank forms, separate from the normative v0.1 planning contract. No new required project fields, universal final-asset status model, native InDesign template, executable importer or verified PDF export are introduced. The layout application and printer settings remain project choices.

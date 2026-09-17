@@ -55,3 +55,7 @@ For mixed pages add story rectangles and check non-overlap.
 
 Budget, coverage, panels, geometry, page turns, upstream revisions: OPEN.
 Record findings and affected slots; acceptance remains separate from review completion.
+
+## Optional layout pilot links
+
+If adopted, record the representative page/spread scope, text/asset source revisions, physical-slot-to-native-document-page mapping, lettering and correction records, printer specification and output review locations. Otherwise leave this section unused. A pilot's preparation or completion does not change this plan's acceptance state or grant print release.

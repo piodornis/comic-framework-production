@@ -14,4 +14,4 @@ comic-project/
 
 `production-project.md` owns production defaults and issue-plan links. Each plan owns its issue overrides and physical page map. Profile definitions remain reusable; store the selected version and effective dimensions with the project so future profile revisions cannot silently alter an issue. Document alternate paths in the entry point.
 
-Rendering asset directories, export manifests and large-file storage are deferred until their workflows are implemented. Do not treat a plan as a rendered or print-ready comic. No migration of existing Story or Design records is required.
+Normative rendering-asset directories, export manifests and large-file storage remain deferred. Projects may opt into the [lettering/print pilot](../guides/lettering-and-print-pilot.md) and [experimental templates](../templates/production-pilot/README.md), documenting local reference, lettering, artwork, layout, export and review paths in their entry point. These optional paths do not change the required planning structure. Do not treat a plan or prepared folders as a rendered or print-ready comic. No migration of existing Story or Design records is required.

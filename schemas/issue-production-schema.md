@@ -56,3 +56,7 @@ Use [Publication structure](publication-structure.md) for U1–U4 aliases, cover
 Changing format, page count, ads or panel allocation requires recalculating the budget and reviewing affected Story references, facing spreads, page turns, lettering space and downstream assets. Do not compress the story to accommodate advertising silently. Record unresolved capacity conflicts and proposed remedies in the issue plan.
 
 Planning review states: `DRAFT`, `IN_REVIEW`, `ACCEPTED`, `SUPERSEDED`. Acceptance records decision source, scope, revision and date and requires creator authorization. Arithmetic review does not accept a plan. A changed accepted plan becomes a new DRAFT revision; prior acceptance remains historical. These states apply only to planning, not rendered assets, canon, Design approval or press readiness.
+
+## Optional downstream layout pilot
+
+After or alongside planning, a project may use the [lettering/print pilot](../guides/lettering-and-print-pilot.md). Link the plan revision and physical map to the chosen Story text revision, asset inventory and native document/page mapping. The pilot is experimental guidance, not additional required fields of this draft contract. Its local check results and text states remain distinct from plan acceptance and final print release.
