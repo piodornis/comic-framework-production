@@ -27,3 +27,7 @@ Optional `x_mm,y_mm,width_mm,height_mm` refer to the top-left trim corner of the
 `changes.csv` records old/new text and synchronization. Local status values may be OPEN/ACCEPTED/REJECTED/APPLIED; APPLIED means the editable Story/adaptation record, lettering list and native layout agree, with revision evidence. Published originals are preserved. A text-state label never grants print release.
 
 The templates require an explicitly documented mapping from physical slot to native document/page before automated import. They do not yet define a complete executable layout exchange format.
+
+## Whole-issue profile
+
+[Layout profile](layout-profile.md) records adopted panel fill, caption overlays and offsets, typography, interior folios and diagnostic-label visibility. Use a separate page/panel gap list for missing images, provisional choices, requested replacements and unresolved text/content; choose project-local states without promoting Design approval. See [Whole-issue rough layout](../../guides/whole-issue-layout.md).

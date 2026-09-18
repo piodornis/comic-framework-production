@@ -44,3 +44,7 @@ Use [pilot templates](../templates/production-pilot/README.md) only when relevan
 ## Evidence before adopting printer settings or old layouts
 
 Use [Printer specification and legacy-layout intake](printer-specification-intake.md) to distinguish researched values from confirmed order requirements and to reconcile native page geometry with PDF page boxes. Provider-specific values belong to the project; generic format profiles remain reusable starting points. A received example is not automatically a verified template.
+
+## From pilot pages to the complete editable issue
+
+Once representative pages establish the treatment, follow [Whole-issue rough layout](whole-issue-layout.md). Assemble all physical slots with replaceable images, editable text and explicit gaps before polishing every illustration. Adopt a project [layout profile](../templates/production-pilot/layout-profile.md) for image filling, caption overlays/offsets, folio treatment and clean-reading metadata visibility. Preserve project-specific typeface and geometry choices rather than making them framework defaults.

@@ -38,3 +38,7 @@ Working defaults are proposals, not creator approval or printer specifications. 
 These are opt-in experimental guidance and blank forms, separate from the normative v0.1 planning contract. No new required project fields, universal final-asset status model, native InDesign template, executable importer or verified PDF export are introduced. The layout application and printer settings remain project choices.
 
 [Printer specification and legacy-layout intake](guides/printer-specification-intake.md) adds evidence handling for provider research and native/PDF geometry comparisons. It keeps order-specific settings and historical examples project-owned, without changing generic format profiles or the planning contract.
+
+## Complete rough issues and editable page treatment
+
+[Whole-issue rough layout](guides/whole-issue-layout.md) extends the optional pilot to a complete reading sequence with explicit gaps, full-panel artwork, editable captions, configurable folio panels and consolidated editorial matter. The [layout-profile form](templates/production-pilot/layout-profile.md) captures adopted project choices. This is guidance and review criteria, not a shipped renderer, fixed house font or a change to the planning contract.

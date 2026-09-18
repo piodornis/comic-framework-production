@@ -53,3 +53,9 @@ Two possible 32-total budgets (illustrations, not added defaults):
 Here U2 contains the imprint; the two interior editorial pages serve other functions. An opening splash and its credits are included within the Story count. These budget illustrations have no physical page map yet; a full plan must add one before use.
 
 The existing 24-page example remains valid: 4 covers + 16 Story + 2 interior ads + 2 editorial. It is a compact issue and does not have to meet the suggested 20–24 Story-page range. For its own material, each project selects format, extent, advertising inventory and editorial functions independently.
+
+## Consolidating front matter into closing editorial matter
+
+A title/imprint page may be replaced by story content when the creator chooses to place the imprint and credits on an existing closing editorial page. Allocate a separate readable area on that page; do not treat the entire page as a simultaneously full-page advertisement. Update the old slot's type, story/editorial totals and narrative mapping. Keep the total extent unchanged only when the revised allocation actually balances.
+
+An extra opening story page may use existing introductory text and an establishing image, with no additional plot beat. Story records any redistribution and prevents duplicate text. Recheck facing-page reveals and ad interruptions. This is an optional structural choice, not a replacement for the existing 24- or 32-page examples. See [Whole-issue rough layout](../guides/whole-issue-layout.md) for caption and folio treatment.

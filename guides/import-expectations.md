@@ -22,3 +22,14 @@ Optional CSV templates use UTF-8 and standard comma-separated quoting. Use a CSV
 ## Verification cases once implemented
 
 Test initial placement, repeat import without duplication, source wording update with preserved geometry, local wording conflict, missing asset/style, unresolved page map, text overflow, CSV punctuation/newlines and recovery after a failed operation. Visually inspect both the native document and its exported proof. These checks are deferred until a real importer exists.
+
+## Additional native-layout verification from rough-issue work
+
+- Preserve the live editable document when producing a new revision; reconcile local changes before rebuilding from older exported data. Use a working copy rather than overwriting the reviewed source.
+- Treat script encoding and data encoding explicitly. Verify non-ASCII text, quotation marks and symbols in the exported result, not only the source file. An ASCII-escaped script or correctly declared Unicode script may be used as supported by the application.
+- When replacing text, replace the complete intended story/text object, including overset content. Some frame-range operations can leave an old tail behind; test long-to-short replacement and inspect the result.
+- Apply proportional cover/clipping and separate editable overlays according to the adopted profile. Updates must preserve approved manual geometry unless the requested change targets it.
+- Check automatic folios against interior numbering, cover/ad exclusions, font size, centering and overlap geometry. Remove diagnostic headers by stable labels, not by deleting arbitrary text with a similar word.
+- Do not infer native-file success from a script file existing. Verify saved native/interchange outputs, normal asset links, available fonts, no unintended overset and an independently rendered proof.
+
+These are implementation checks, not claims of an included executable importer. API details remain application/version-specific.
