@@ -36,3 +36,5 @@ Working defaults are proposals, not creator approval or printer specifications. 
 [Lettering and print pilot](guides/lettering-and-print-pilot.md) connects Story wording, Design inputs, layout corrections and print review. [Pilot templates](templates/production-pilot/README.md) provide intake, lettering, assets, changes, print specifications and review forms. [Import expectations](guides/import-expectations.md) describe future implementation checks.
 
 These are opt-in experimental guidance and blank forms, separate from the normative v0.1 planning contract. No new required project fields, universal final-asset status model, native InDesign template, executable importer or verified PDF export are introduced. The layout application and printer settings remain project choices.
+
+[Printer specification and legacy-layout intake](guides/printer-specification-intake.md) adds evidence handling for provider research and native/PDF geometry comparisons. It keeps order-specific settings and historical examples project-owned, without changing generic format profiles or the planning contract.

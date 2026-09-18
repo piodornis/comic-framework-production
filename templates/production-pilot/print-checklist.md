@@ -32,3 +32,10 @@ Use with an [output review](output-review.md) for the exact revision. This blank
 - [ ] Delivery package matches the requested scope.
 
 Do not send, publish or order printing merely because this form exists. Carry out delivery only within the user's actual authorization.
+
+## Source and configuration reconciliation
+
+- [ ] Specification matches the exact product/configuration; contradictory source values resolved.
+- [ ] Native geometry and reference-PDF boxes compared before template reuse; mismatches explained.
+- [ ] Adopted issue overrides agree across plan, native layout and delivery specification.
+- [ ] PDF/X declaration distinguished from actual validation; output profile and font availability checked for this job.

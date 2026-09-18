@@ -25,3 +25,15 @@ Status: OPEN. Record evidence/date for confirmed values. Prior-job settings and 
 - Confirmed by / on: OPEN
 - Deviations / resolution evidence: OPEN
 - Physical slot to native document/page mapping location: OPEN
+
+## Research evidence and unresolved differences
+
+- Country shop / exact product / binding / stock / color / quantity: OPEN
+- Saved configuration and matching datasheet / date / revision: OPEN
+- Per-parameter source register (value, unit, scope, retrieval date, evidence level): OPEN
+- Provider-published values versus project proposals / calculated values: OPEN
+- Conflicting or product-external sources and their disposition: OPEN
+- Prior plan assumptions versus proposed issue overrides / decision reference: OPEN
+- Native layout and export settings reconciled to the adopted specification: OPEN
+
+Follow [printer intake guidance](../../guides/printer-specification-intake.md). A general webpage or prior print job does not confirm the current configuration. Keep historical example settings and this new specification distinct.

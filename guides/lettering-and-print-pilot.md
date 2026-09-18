@@ -40,3 +40,7 @@ Build automation only after the pilot establishes a usable template. [Import exp
 The pilot succeeds when the source can be edited, text is readable at actual size, ordering and speaker attribution are clear, a correction survives synchronization, and the exported PDF has been independently checked against the selected specification. Empty folders, header-only CSVs and unchecked checklists are preparation, not completion.
 
 Use [pilot templates](../templates/production-pilot/README.md) only when relevant. Universal final-asset status enums and a stable machine interchange schema remain deferred pending evidence from actual use.
+
+## Evidence before adopting printer settings or old layouts
+
+Use [Printer specification and legacy-layout intake](printer-specification-intake.md) to distinguish researched values from confirmed order requirements and to reconcile native page geometry with PDF page boxes. Provider-specific values belong to the project; generic format profiles remain reusable starting points. A received example is not automatically a verified template.
